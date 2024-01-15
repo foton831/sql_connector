@@ -1,0 +1,8 @@
+version: '3'
+services:
+  sql_connector:
+    image: foton831/sql_connector:1.0.0
+    build: 
+      context: .
+    ports:
+      - 5000:5000
